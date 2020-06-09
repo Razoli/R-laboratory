@@ -2,7 +2,7 @@
 
 This repository contains some scripts that can be used to facilitate the construction of some algorithm in R like:
 
-* Functions usefuls
+* Useful Functions in R
 * Algorithms of Machine Leaning
 * Some tips and scripts automatized
 
