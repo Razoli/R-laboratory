@@ -17,7 +17,6 @@ print(quadratic_function(20)) # 400
 # by
 
 ## sapply
-
 lista <- list(a = c(1:5), b = c(10:50)) # Return sum of each element from list
 sapply(lista, mean)
 sapply(lista, quadratic_function)
@@ -28,6 +27,6 @@ apply(M, 1, sum) # Sum of lines
 apply(M, 2, sum) # Sum of columns
 
 ## tapply
-#Calculates the FUN of values of each species, equals group by, FUN = SUM
+#Calculates the FUN of values of each category, equals group by, FUN = SUM
 tapply(iris$Sepal.Length, iris$Species, sum)
 tapply(iris$Sepal.Length, iris$Species, mean)
